@@ -1,8 +1,8 @@
-package net.guides.springboot2.springboot2swagger2.model;
+package com.ankesh.labs.expensemanagement.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModelProperty;
-import net.guides.springboot2.springboot2swagger2.domain.ExpenseType;
+import com.ankesh.labs.expensemanagement.domain.ExpenseType;
 
 import javax.persistence.*;
 import java.util.Date;

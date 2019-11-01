@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2swagger2.config;
+package com.ankesh.labs.expensemanagement.config;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
@@ -23,16 +23,16 @@ public class Swagger2Config {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
 				.apis(RequestHandlerSelectors
-						.basePackage("net.guides.springboot2.springboot2swagger2.controller"))
+						.basePackage("com.ankesh.labs.expensemanagement.controller"))
 				.paths(PathSelectors.regex("/.*"))
 				.build().apiInfo(apiEndPointsInfo());
 	}
 
 	private ApiInfo apiEndPointsInfo() {
 
-		return new ApiInfoBuilder().title("Spring Boot REST API")
-				.description("Employee Management REST API")
-				.contact(new Contact("Ankesh Somani", "www.javaguides.net", "ankeshsomani@gmail.com"))
+		return new ApiInfoBuilder().title("Expense Management System API")
+				.description("Expense Management REST API")
+				.contact(new Contact("Ankesh Somani", "http://ankeshtechlearnings.blogspot.com/2016/", "ankesh@ankesh.com"))
 				.license("Apache 2.0")
 				.licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
 				.version("1.0.0")

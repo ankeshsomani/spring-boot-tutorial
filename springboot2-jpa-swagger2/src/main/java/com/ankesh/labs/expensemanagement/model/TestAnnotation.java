@@ -1,6 +1,6 @@
-package net.guides.springboot2.springboot2swagger2.model;
+package com.ankesh.labs.expensemanagement.model;
 
-import net.guides.springboot2.springboot2swagger2.annotation.MyToDo;
+import com.ankesh.labs.expensemanagement.annotation.MyToDo;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

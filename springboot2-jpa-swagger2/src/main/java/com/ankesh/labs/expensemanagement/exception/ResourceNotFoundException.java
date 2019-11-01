@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2swagger2.exception;
+package com.ankesh.labs.expensemanagement.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

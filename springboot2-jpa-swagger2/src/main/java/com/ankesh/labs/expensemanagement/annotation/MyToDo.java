@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2swagger2.annotation;
+package com.ankesh.labs.expensemanagement.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

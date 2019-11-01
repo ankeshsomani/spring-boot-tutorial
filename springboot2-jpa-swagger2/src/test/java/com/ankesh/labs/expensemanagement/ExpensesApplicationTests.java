@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpaswagger2;
+package com.ankesh.labs.expensemanagement;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Springboot2Swagger2ApplicationTests {
+public class ExpensesApplicationTests {
 
 	@Test
 	public void contextLoads() {

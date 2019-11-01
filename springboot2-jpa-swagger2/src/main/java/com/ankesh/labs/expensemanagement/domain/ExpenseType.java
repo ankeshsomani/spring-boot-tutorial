@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2swagger2.domain;
+package com.ankesh.labs.expensemanagement.domain;
 
 public enum ExpenseType {
     FOOD, TRAVEL, ENTERTAINMENT, HOUSEHOLD

@@ -1,11 +1,11 @@
-package net.guides.springboot2.springboot2swagger2.controller;
+package com.ankesh.labs.expensemanagement.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
-import net.guides.springboot2.springboot2swagger2.model.Expense;
-import net.guides.springboot2.springboot2swagger2.repository.ExpenseRepository;
+import com.ankesh.labs.expensemanagement.model.Expense;
+import com.ankesh.labs.expensemanagement.repository.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

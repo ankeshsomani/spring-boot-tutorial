@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>net.guides.springboot2</groupId>
-	<artifactId>springboot2-jpa-swagger2</artifactId>
+	<groupId>com.ankesh.labs</groupId>
+	<artifactId>expensemanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot2-jpa-swagger2</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Expense Management System</name>
+	<description>Demo project for Expense Management</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

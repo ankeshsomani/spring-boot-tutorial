@@ -1,9 +1,9 @@
-package net.guides.springboot2.springboot2swagger2.controller;
+package com.ankesh.labs.expensemanagement.controller;
 
+import com.ankesh.labs.expensemanagement.repository.EmployeeRepository;
 import io.swagger.annotations.*;
-import net.guides.springboot2.springboot2swagger2.exception.ResourceNotFoundException;
-import net.guides.springboot2.springboot2swagger2.model.Employee;
-import net.guides.springboot2.springboot2swagger2.repository.EmployeeRepository;
+import com.ankesh.labs.expensemanagement.exception.ResourceNotFoundException;
+import com.ankesh.labs.expensemanagement.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

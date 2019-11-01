@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2swagger2.model;
+package com.ankesh.labs.expensemanagement.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
